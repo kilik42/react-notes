@@ -1,6 +1,6 @@
-import React, { Component} from 'react';
+import React, { Component, PropTypes} from 'react';
 import './Note.css';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 class Note extends Component { // eslint-disable-line react/prefer-stateless-function
   constructor(props){
